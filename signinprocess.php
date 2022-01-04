@@ -17,7 +17,7 @@ $row = mysqli_fetch_array($result); //Retrieve result
 $count = mysqli_num_rows($result);  //Count result found
 
 //Check login
-if($count == 1) //User found
+if($count == 1) //User foundhahaha
 {
 	//set session
 	$_SESSION['u_username'] = session_id() ;
